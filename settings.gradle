@@ -1,1 +1,9 @@
 rootProject.name = 'reproducer-project'
+
+dependencyResolutionManagement {
+    versionCatalogs {
+        libs {
+            library('mylib', 'org.mycompany:lib:1.0')
+        }
+    }
+}
